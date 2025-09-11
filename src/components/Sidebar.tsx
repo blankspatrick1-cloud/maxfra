@@ -135,7 +135,7 @@ const Sidebar: React.FC<SidebarProps> = ({ documents, onDocumentUpload }) => {
                     <Folder size={16} className="text-white" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-slate-800 truncate max-w-32">{doc.name}</p>
+                    <p className="text-sm font-medium text-slate-800 truncate max-w-[8rem]">{doc.name}</p>
                     <p className="text-xs text-slate-500">{doc.size}</p>
                   </div>
                 </div>
