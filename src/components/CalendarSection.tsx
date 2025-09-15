@@ -35,7 +35,7 @@ const CalendarSection: React.FC<CalendarSectionProps> = ({ appointments }) => {
             </tr>
           </thead>
           <tbody>
-            {slots.map((slot, slotIndex) => (
+            {slots.map((slot) => (
               <tr key={slot} className="border-b border-slate-100 hover:bg-slate-50/50 transition-colors">
                 <td className="p-4 font-medium text-slate-700 bg-gradient-to-r from-teal-50 to-blue-50">
                   {slot}

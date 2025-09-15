@@ -58,20 +58,22 @@ const Sidebar: React.FC<SidebarProps> = ({ documents, onDocumentUpload }) => {
           addButton?.click();
         }, 500);
         break;
-      case 'diploma':
+      case 'diploma': {
         const studentName = prompt('Enter student name for diploma:');
         const courseName = prompt('Enter course name:');
         if (studentName && courseName) {
           alert(`Diploma generated for ${studentName} - ${courseName} course completion!`);
         }
         break;
-      case 'receipt':
+      }
+      case 'receipt': {
         const receiptStudent = prompt('Enter student name for receipt:');
         const amount = prompt('Enter payment amount:');
         if (receiptStudent && amount) {
           alert(`Receipt generated for ${receiptStudent} - Payment: $${amount}`);
         }
         break;
+      }
     }
   };
 
