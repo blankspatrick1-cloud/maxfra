@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Users, FileText, BarChart3, Clock, MapPin, User, BookOpen, CheckCircle, Plus, Search, Filter, Bell, Upload, Download, Eye, Settings, LogOut } from 'lucide-react';
 import LoginScreen from './components/LoginScreen';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
